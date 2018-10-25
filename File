@@ -4,31 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bounceback Physiotherapy | Physiotherapy service in Castlebar</title>
+    <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!--Facebook-->
-  <div id="fb-root"></div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!--./Facebook-->
-
     <nav class="navbar navbar-default">
         <div class="container-fluid alert-container hidden-xs">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="site-wide-alert alert alert-warning">
-                        <strong>Physio-led Pilates</strong> Register your interest in pilates classes here! <a href="">See here for more details</a>
+                        <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +25,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="/" class="navbar-brand">
-                    
+                    Whiskey Drop
                 </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -50,74 +38,42 @@
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="/">Home</a></li>
-                    <li><a href="">Book Appointment</a></li>
-                    <li><a href="">Pilates</a></li>
-                    <li><a href="">Contact Us</a></li>
                     <li><a href="">About</a></li>
+                    <li class="visible-xs"><a href="">Sign In</a></li>
                 </ul>
 
-               
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
+                    <p class="navbar-text"><i>Great whiskey delivered to your door</i></p>
+                </div>
             </div>
         </div>
     </nav>
     <div class="container-fluid callout-container">
-        <div class="opaque-overlay img-rounded" >&nbsp;</div>
+        <div class="opaque-overlay">&nbsp;</div>
         <!-- Callout -->
         <div class="row">
             <div class="col-xs-12">
-                <section class="callout">
-                    <p class="lead"> </p>
-                    <br>
-                    <br>
-                    <p><a href="appointment.html" class="btn btn-lg btn--cta btn-primary">Book Appointment!</a></p>
-                  </section>
+                <section class="callout jumbotron text-center">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class='block-divider block-divider--orange'>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">€19.99</s> <span class="visible-xs"><br></span> <strong><mark>First one is free!</mark></strong></p>
+                    <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
+                </section>
             </div>
         </div>
         <!-- /.callout -->
     </div>
 
-<div class="feature">
-                            <h3><span class="glyphicon glyphicon-credit-card hidden-xs"></span> Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-   
-    <div class="container-wrapper container-wrapper--red">
-        <div class="container features-container content-container">
-            <!-- Social Media -->
-            <section class="features">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-header">
-                            <h2 class="text-uppercase">Updates</h2>
-                            <hr class="block-divider block-divider--short block-divider--white">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="social-media-left">
-                            <a href="https://instawidget.net/v/user/bouncebackphysiotherapy" id="link-3bca10999d4d06a9ac9452be6b637641c23d82ed2d1928440c3df27c1a03b566">@bouncebackphysiotherapy</a>
-<script src="https://instawidget.net/js/instawidget.js?u=3bca10999d4d06a9ac9452be6b637641c23d82ed2d1928440c3df27c1a03b566&width=100%"></script></div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="social-media-right">
-                            <div class="fb-page" data-href="https://www.facebook.com/BouncebackPhysiotherapyCastlebar/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/BouncebackPhysiotherapyCastlebar/" width="100%" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BouncebackPhysiotherapyCastlebar/">Bounceback Physiotherapy</a></blockquote></div>
-                            </div>
-                    </div>
-                    
-            </section>
-            <!-- /.social-media -->
-        </div>
-    </div>
- <div class="container-wrapper">
+    <div class="container-wrapper">
         <div class="container quotes-container content-container">
-            <!-- Reviews -->
+            <!-- Quotes -->
             <section class="quotes">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
-                            <h2 class="text-uppercase">Reviews:</h2>
+                            <h2 class="text-uppercase">Quotes:</h2>
                             <hr class="block-divider block-divider--short">
                         </div>
                     </div>
@@ -126,12 +82,12 @@
                     <div class="col-xs-12 col-md-6">
                         <div class="media">
                             <div class="media-left">
-                                <img src="http://i63.tinypic.com/1puiig.jpg" class="img-circle media-object" height=100 width=100>
+                                <img src="images/girl-image.png" class="img-circle media-object" height=100 width=100>
                             </div>
                             <div class="media-body">
                                 <blockquote class="quote">
-                                    <p>I've had so much fun at Pilates and met some great people, including Louise.</p>
-                                    <footer>Customer 1 <cite title="Facebook">Facebook</cite></footer>
+                                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                    <footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -139,12 +95,12 @@
                     <div class="col-xs-12 col-md-6">
                         <div class="media">
                             <div class="media-left">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Defence_Forces_Vs_BOI_Gaelic_Football_at_Semple_Stadium_%285100238057%29.jpg" class="img-circle media-object" height=100 width=100>
+                                <img src="images/guy-image.png" class="img-circle media-object" height=100 width=100>
                             </div>
                             <div class="media-body">
                                 <blockquote class="quote">
-                                    <p>I have never been moving better. Thanks Louise!</p>
-                                    <footer>Football Player on <cite title="Instagram">Instagram</cite></footer>
+                                    <p>I haven't been sober for months!</p>
+                                    <footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -152,6 +108,49 @@
                 </div>
             </section>
             <!-- /.quotes -->
+        </div>
+    </div>
+
+    <div class="container-wrapper container-wrapper--red">
+        <div class="container features-container content-container">
+            <!-- Features -->
+            <section class="features">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h2 class="text-uppercase">Features:</h2>
+                            <hr class="block-divider block-divider--short block-divider--white">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-gift hidden-xs"></span> Feature 1 <span class="label label-success">New!</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-credit-card hidden-xs"></span> Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 hidden-md col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-remove-sign hidden-xs"></span> Feature 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.features -->
         </div>
     </div>
 

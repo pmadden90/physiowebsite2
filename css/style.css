@@ -1,0 +1,70 @@
+body {font-family: 'Poppins', sans-serif;
+    background-color: #00BFFF; 
+}
+
+.navbar-brand {
+  background: url(http://i67.tinypic.com/5o8nfb.jpg) center / contain no-repeat;
+  width:200px;
+  position: center;
+}
+
+.callout-container {
+    height: 50vh;
+
+    background: url("https://images.pexels.com/photos/1020323/pexels-photo-1020323.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.social-media-left {float:left;
+width: 100%;
+margin-right: 2px;
+margin-left: 2px;
+    
+}
+
+.social-media-right {
+   float:left;
+   background-color: #C0C0C0;
+}
+
+
+.menu-tiles {
+    
+}
+
+.appointment-form {
+    
+}
+
+.callback-form {
+    
+}
+.quotes {
+    background-color: #00BFFF;
+}
+
+.content-container {
+    background-color: #778899;
+}
+
+.left-half {
+  background-color: #C0C0C0;
+  flex: 1;
+  padding: 1rem;
+  width: 100%;
+}
+
+.right-half {
+  flex: 1;
+  padding: 1rem; 
+  width: 100%;
+}
