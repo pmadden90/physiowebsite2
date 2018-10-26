@@ -1,5 +1,5 @@
 body {font-family: 'Poppins', sans-serif;
-    background-color: #00BFFF; 
+    background-color: #D3D3D3; 
 }
 
 .navbar-brand {
@@ -53,11 +53,11 @@ margin-left: 2px;
 }
 
 .content-container {
-    background-color: #778899;
+    background-color: #D3D3D3;
 }
 
 .left-half {
-  background-color: #C0C0C0;
+  background-color: #00BFFF;
   flex: 1;
   padding: 1rem;
   width: 100%;
@@ -67,4 +67,28 @@ margin-left: 2px;
   flex: 1;
   padding: 1rem; 
   width: 100%;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #125688;
+    border-color: #90949c;
+}
+
+.btn-primary {
+   color: #fff;
+    background-color: #00BFFF;
+    border-color: #90949c; 
+}
+
+
+#footer {
+    max-width: 95%;
+    background-color: #00BFFF;
+    position: center;
+    background-image: url(http://i67.tinypic.com/357ovvm.png);
+    }
+
+.div1 {
+    
 }
