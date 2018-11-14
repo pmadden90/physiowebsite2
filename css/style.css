@@ -203,8 +203,93 @@ body {
 
 /*-------------------------End of pilates.html*/
 
-/*-------------------------------------------------------*/
+/*-------------------------------------------------------About.html*/
+/*Louise's Timeline*/
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #FAFAFA;
+    border-left: 1px solid;
+    margin-left: 5px;
+}
 
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.bg-color-work-history {
+   background-color: #00BFFF;
+   }
+
+.history-heading {
+    color: #fafafa;
+    font-size: 30px;
+    margin: 20px;
+    }
+
+.work-history{
+    margin-bottom: 15px;
+}
+
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+.about-header{
+    color:#00BFFF;
+    font-weight: 600;
+    font-size: 32px;
+}
+.about-business {
+    background-color: #FAFAFA;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+.about-louise {
+    background-color: #FAFAFA;
+    font-size: 20px;
+    margin: 5px 5px 5px 5px;
+    width: 95%;
+}
+.about-louise p {
+    width: 100%;
+    }
+.history {
+  margin: 10px 10px 10px 10px;  
+}
+.section-heading {
+  color:#00BFFF; 
+  font-size: 30px;
+  margin: 20px;
+}
+/*End*/
 /*-------------------------End of*/
 
 /*-------------------------------------------------------*/
