@@ -238,7 +238,7 @@
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4">
                   <h5 class="uppercase" align="center">Contact</h5>
-                  <p class="inline-block contact-envelope" align="center"><a data-toggle='modal' data-target='#contactusModal'><i class="fa fa-envelope social-links"></i></a></p>
+                  <p class="inline-block contact-envelope" align="center"><a data-toggle='modal' data-target='#contactModal'><i class="fa fa-envelope social-links"></i></a></p>
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4">
                   <h5 class="uppercase">Social Media</h5>
@@ -278,13 +278,13 @@
                 <fieldset>
                   <legend align="center">Request A Callback</legend>
                   <label for="Name">Name:</label>
-                  <input type="text" name="name" id="name" required size="15">
+                  <input type="text" name="name" id="name" maxlength="15" required size="10">
                   <br>
                   <label for="Phone Number">Number:</label>
-                  <input type="text"required size="14">
+                  <input type="text" maxlength="15" required size="10">
                   <br>
-                  <label for="Time For Call">Time For Call:</label>
-                  <input type="text" required size="11">
+                  <label for="Time For Call">Time To Call:</label>
+                  <input type="text" maxlength="8" required size="8">
                   <br>
                   <input type="submit" align="right">
               </form>
@@ -296,6 +296,126 @@
   </div>
 </div>
 
+
+<!--------------------------------------------------Contact Modal -->
+<div class="modal fade modal-lg modal-apt" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" style="width:90%" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" align="center" id="myModalLabel">Booking An Appointment</h4>
+      </div>
+      <div class="modal-body">
+        <div align="center" class="hidden-xs">
+    <div class="contact-form">
+   <form name="contactform" method="post" action="send_form_email.php">
+    <table width="450px">
+     <tr>
+      <td valign="top">
+       <label for="first_name">First Name *</label>
+      </td>
+      <td valign="top">
+       <input type="text" name="first_name" maxlength="20" size="15">
+      </td>
+     </tr>
+     <tr>
+      <br>
+      <td valign="top">
+       <label for="last_name">Last Name *</label>
+      </td>
+      <td valign="top ">
+       <input type="text " name="last_name " maxlength="20 " size="15 ">
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="email">Email Address *</label>
+      </td>
+      <td valign="top">
+       <input type="text" name="email" maxlength="50" size="18">
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="telephone">Telephone Number *</label>
+      </td>
+      <td valign="top">
+       <input type="text" name="telephone" maxlength="40" size="18">
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="comments">Comments *</label>
+      </td>
+      <td valign="top">
+       <textarea name="comments" maxlength="900" cols="35" rows="3"></textarea>
+      </td>
+     </tr>
+     <tr>
+      <td colspan="2" style="text-align:center">
+       <input type="submit" value="Submit" float="right">
+      </td>
+     </tr>
+    </table>
+   </form>
+   </div>
+  </div>
+ 
+ <div align="center" class="visible-xs hidden-sm hidden-md contact-modal">
+    <div class="contact-form-mobile">
+   <form name="contactform" method="post" action="send_form_email.php">
+    <table width="250px">
+     <tr>
+      <td valign="top">
+       <label for="first_name">First Name *</label>
+      </td>
+      <td valign="top">
+       <input type="text" name="first_name" maxlength="15" size="6">
+      </td>
+     </tr>
+     <tr>
+      <br>
+      <td valign="top">
+       <label for="last_name">Last Name *</label>
+      </td>
+      <td valign="top ">
+       <input type="text " name="last_name " maxlength="15" size="6">
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="email">Email*</label>
+      </td>
+      <td valign="top">
+       <input type="text" name="email" maxlength="40" size="6">
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="telephone">Telephone *</label>
+      </td>
+      <td valign="top">
+       <input type="text" name="telephone" maxlength="12" size="6">
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="comments">Comments *</label>
+      </td>
+      <td valign="top">
+       <textarea name="comments" maxlength="900" cols="8" rows="3"></textarea>
+      </td>
+     </tr>
+     <tr>
+      <td colspan="2" style="text-align:center">
+       <input type="submit" value="Submit" float="right">
+      </td>
+     </tr>
+    </table>
+   </form>
+   </div>
+  </div>
+<!--------------------------End of Modals-->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

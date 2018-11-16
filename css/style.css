@@ -194,9 +194,11 @@ body {
 }
 
 .physio-apt {
-    
+   font-size: 16px; 
 }
-
+.contact-modal{
+  font-size: 16px;  
+}
 .online-apt {
  color: #fff;
  background-color: #00BFFF; 
