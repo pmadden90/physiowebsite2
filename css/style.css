@@ -1,6 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #D3D3D3;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 /*Headers*/
@@ -16,6 +21,25 @@ body {
     position: center;
 }
 
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.options {
+    text-align: center;
+    padding: 2px 20px 2px 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.options:hover{
+    text-align: center;
+    padding: 2px 20px 2px 20px;
+    background-color:#00BFFF;
+    font-weight: 400;
+    font-size: 20px;
+    }
+    
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
         border: 0;
@@ -26,14 +50,35 @@ body {
 
 .navbar-default .navbar-toggle .icon-bar {
     color: #00BFFF;
+    text-align:center;
 }
 /*-------------------------End of Header/Nav*/
 
 /*-------------------------------------------------------Footer*/
 .footer-bounceback {
     background-color: #FFFFFF;
-    margin-top: 12.5px;
-}
+    margin-top: 50px;
+    padding-top: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: -5;
+    left: 0;
+    right: 0;
+    color: #000000;
+    font-size: 18px;
+    }
+
+.footer-logo1 {
+  background-size: contain;
+  width: 160px;
+  height: 82px;
+  }
+
+.footer-logo2 {
+  background-size: contain;
+  width: 100px;
+  height: 82px;
+  }
 
 .social-links {
     font-size: 25px;
@@ -161,23 +206,46 @@ body {
 }
 /*End*/
 
+/*Facebook Plugin*/
+element.style {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.social-media-all {
+    background-color:#FFFFFF;
+}
+
 .social-media-left {
-    float: left;
+    background-color: #FFFFFF;
     width: 100%;
     margin-right: 2px;
     margin-left: 2px;
+    margin-bottom: 15px;
+    
+}
 
+.social-media-center {
+    width: 100%;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    padding-right: 10px;
 }
 
 .social-media-right {
-    float: left;
-    background-color: #C0C0C0;
+    width: 100%;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .quotes {
     background-color: #00BFFF;
     color: #FFFFFF;
-}
+    margin-top: 5px;
+    padding-top: 0px;
+   }
 
 .content-container {
     background-color: #D3D3D3;
@@ -196,6 +264,26 @@ body {
     width: 100%;
 }
 
+.container-wrapper-blue {
+    background-color: #00BFFF;
+    width: 328px;
+        }
+    
+.container-wrapper-grey {
+    background-color: #D3D3D3;
+    padding: 0px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.container-wrapper-reviews {
+   background-color: #00BFFF;
+   }
+
+.features-container {
+    padding-bottom: 10px;
+}
 
 
 /*-------------------------End of index.html*/
@@ -290,46 +378,32 @@ body {
   margin: 20px;
 }
 /*End*/
-/*-------------------------End of*/
+/*-------------------------End of About.html*/
 
-/*-------------------------------------------------------*/
-
-/*End of*/
-.navbar {
-    background-color: #FFFFFF;
-}
-
-
-.appointment-form {
+/*-------------------------------------------------------Contact.html*/
+.contact-form {
     background-color: #00BFFF;
     border-color: #708090;
     border-style: groove;
+    width: 50%;
+    padding-left: 15px;
 }
 
-
-/*Facebook Plugin*/
-element.style {
-    min-width: 100%;
-    width: 100%;
-    height: 100%;
+.contact-form td {
+    padding-top: 5px;
+    padding-bottom:5px;
 }
-
-/*Wrapper*/
-.container-wrapper-blue {
+.contact-form-mobile {
     background-color: #00BFFF;
-    padding: 0px;
-    }
-    
-.container-wrapper-grey {
-    background-color: #D3D3D3;
-    padding: 0px
+    border-color: #708090;
+    border-style: groove;
+    width: 90%;
+    padding-left: 2px;
 }
 
-
-
-.features-container {
-    padding-bottom: 10px;
+.contact-form-mobile td {
+    padding-top: 5px;
+    padding-bottom:5px;
 }
-
-
+/*End of Contact.html*/
 
