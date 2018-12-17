@@ -6,55 +6,65 @@ body {
     margin: 0;
     overflow-x: hidden;
     overflow-y: scroll;
-}
+    }
 
 /*Headers*/
-.h1, .h2, .h3, h1, h2, h3 {
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-}
+    }
+
 /*-------------------------------------------------------Nav*/
+
 .navbar-brand {
     background: url(http://i67.tinypic.com/5o8nfb.jpg) center / contain no-repeat;
     width: 200px;
     position: center;
-}
+    }
 
 .navbar {
     background-color: #FFFFFF;
-}
+    }
 
 .options {
     text-align: center;
     padding: 2px 20px 2px 20px;
     font-weight: 400;
     font-size: 20px;
-}
+    }
 
-.options:hover{
+.options:hover {
     text-align: center;
     padding: 2px 20px 2px 20px;
-    background-color:#00BFFF;
+    background-color: #00BFFF;
     font-weight: 400;
     font-size: 20px;
     }
-    
+
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-        border: 0;
-}
-.navbar-default .navbar-toggle {
     border: 0;
     }
 
+.navbar-default .navbar-toggle {
+    border: 0;
+    }
+    
 .navbar-default .navbar-toggle .icon-bar {
     color: #00BFFF;
-    text-align:center;
-}
-/*-------------------------End of Header/Nav*/
+    text-align: center;
+    }
+
 
 /*-------------------------------------------------------Footer*/
+
 .footer-bounceback {
     background-color: #FFFFFF;
     margin-top: 50px;
@@ -69,49 +79,50 @@ body {
     }
 
 .footer-logo1 {
-  background-size: contain;
-  width: 160px;
-  height: 82px;
-  }
+    background-size: contain;
+    width: 160px;
+    height: 82px;
+    }
 
 .footer-logo2 {
-  background-size: contain;
-  width: 100px;
-  height: 82px;
-  }
+    background-size: contain;
+    width: 100px;
+    height: 82px;
+    }
 
 .social-links {
     font-size: 25px;
-}
+    }
 
 .facebook {
     color: #3b5998;
-}
+    }
 
 .instagram {
     color: #c13584;
-}
+    }
 
 .snapchat {
     color: #fffc00;
-}
+    }
 
 .twitter {
     color: #1da1f2;
-}
+    }
 
 .footer-img {
-    width:250px;
-    height:100px;
-}
+    width: 250px;
+    height: 100px;
+    }
 
-.fa-envelope{
-    color:#00BFFF;
-}
-/*-------------------------End of Footer*/
+.fa-envelope {
+    color: #00BFFF;
+    }
 
-/*-------------------------------------------------------index.html*/
+/*-------------------index.html*/
+
 /*Alert*/
+
 .alert {
     padding-right: 5px;
     padding-left: 5px;
@@ -120,11 +131,15 @@ body {
     background-color: #00BFFF;
     color: #000000;
     border-color: #708090;
-}
-.pilates-link {
+    }
+
+    
+    .home-visits-link {
     color: #FFFFFF;
-}
+    }
+
 /*Callout Container*/
+
 .callout-container {
     height: 50vh;
 
@@ -139,28 +154,30 @@ body {
     justify-content: center;
 
     position: relative;
-}
+    }
 
 .btn-primary:hover {
     color: #fff;
     background-color: #1E90FF;
     border-color: #90949c;
-}
+    }
 
 .btn-primary {
     color: #fff;
     background-color: #00BFFF;
     border-color: #90949c;
-}
+    }
+
 /*End*/
 
 /*Appointment Modal*/
+
 .calendar-icon {
     color: #00BFFF;
     font-size: 80px;
-}
+    }
 
-.wrapper-callback{
+.wrapper-callback {
     background-color: #00BFFF;
     flex: 1;
     padding: 1rem;
@@ -169,9 +186,9 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: left;
-}
+    }
 
-.wrapper-appointment{
+.wrapper-appointment {
     background-color: #A9A9A9;
     flex: 1;
     padding: 1rem;
@@ -180,44 +197,51 @@ body {
     margin-bottom: 5px;
     width: 100%;
     height: 200px;
-}
+    }
 
 
 .modal {
-  text-align: center;
-  padding: 0;
-  margin: 0 auto;
-  }
-
-.modal-apt{
     text-align: center;
-}
+    padding: 0;
+    margin: 0 auto;
+    width: 95vw;
+    }
 
+.modal-apt {
+    text-align: center;
+    }
+    
 .physio-apt {
-   font-size: 16px; 
-}
-.contact-modal{
-  font-size: 16px;  
-}
+    font-size: 16px;
+    }
+
+.contact-modal {
+    font-size: 16px;
+    width: auto;
+    align-items: center;
+    }
+
 .online-apt {
- color: #fff;
- background-color: #00BFFF; 
- font-weight:300;
- font-size: 20px;
- border-color: #90949c;
-}
+    color: #fff;
+    background-color: #00BFFF;
+    font-weight: 300;
+    font-size: 20px;
+    border-color: #90949c;
+    }
+
 /*End*/
 
 /*Facebook Plugin*/
+
 element.style {
     min-width: 100%;
     width: 100%;
     height: 100%;
-}
+    }
 
 .social-media-all {
-    background-color:#FFFFFF;
-}
+    background-color: #FFFFFF;
+    }
 
 .social-media-left {
     background-color: #FFFFFF;
@@ -225,8 +249,8 @@ element.style {
     margin-right: 2px;
     margin-left: 2px;
     margin-bottom: 15px;
-    
-}
+
+    }
 
 .social-media-center {
     width: 100%;
@@ -234,79 +258,78 @@ element.style {
     margin-left: 2px;
     margin-bottom: 5px;
     padding-right: 10px;
-}
+    }
 
 .social-media-right {
     width: 100%;
     margin-right: 2px;
     margin-left: 2px;
-}
+    }
 
 .quotes {
     background-color: #00BFFF;
     color: #FFFFFF;
     margin-top: 5px;
     padding-top: 0px;
-   }
+    }
 
 .content-container {
     background-color: #D3D3D3;
-}
+    }
 
 .left-half {
     background-color: #00BFFF;
     flex: 1;
     padding: 1rem;
     width: 100%;
-}
+    }
 
 .right-half {
     flex: 1;
     padding: 1rem;
     width: 100%;
-}
+    }
 
 .container-wrapper-blue {
     background-color: #00BFFF;
     width: 328px;
-        }
-    
+    }
+
 .container-wrapper-grey {
     background-color: #D3D3D3;
     padding: 0px;
     color: #000000;
     font-weight: 600;
     font-size: 24px;
-}
+    }
 
 .container-wrapper-reviews {
-   background-color: #00BFFF;
-   }
+    background-color: #00BFFF;
+    }
 
 .features-container {
     padding-bottom: 10px;
-}
+    }
 
-
-/*-------------------------End of index.html*/
 /*-------------------------------------------------------pilates.html*/
 
-/*-------------------------End of pilates.html*/
 
 /*-------------------------------------------------------About.html*/
+
 /*Louise's Timeline*/
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #FAFAFA;
     border-left: 1px solid;
     margin-left: 5px;
-}
+    }
 
 .timeline-item p {
     padding: 0;
     margin: 0;
-}
+    }
 
 .timeline-item::before {
     content: attr(dates);
@@ -319,7 +342,7 @@ element.style {
     font-size: .8em;
     padding: 0;
     margin: 0;
-}
+    }
 
 .timeline-item::after {
     width: 12px;
@@ -331,11 +354,11 @@ element.style {
     border-radius: 12px;
     content: '';
     background: #fafafa;
-}
+    }
 
 .bg-color-work-history {
-   background-color: #00BFFF;
-   }
+    background-color: #00BFFF;
+    }
 
 .history-heading {
     color: #fafafa;
@@ -343,69 +366,413 @@ element.style {
     margin: 20px;
     }
 
-.work-history{
+.work-history {
     margin-bottom: 15px;
-}
+    }
 
 .section-column {
     padding: 0 30px 30px;
     float: none;
     display: table-cell;
-}
-.about-header{
-    color:#00BFFF;
+    }
+
+.about-header {
+    color: #00BFFF;
     font-weight: 600;
     font-size: 32px;
-}
+    }
+
 .about-business {
     background-color: #FAFAFA;
     font-size: 20px;
     margin: 10px 10px 10px 10px;
-}
+    }
+
 .about-louise {
     background-color: #FAFAFA;
     font-size: 20px;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 25px 5px;
     width: 95%;
-}
+    }
+
 .about-louise p {
     width: 100%;
     }
+
 .history {
-  margin: 10px 10px 10px 10px;  
-}
+    margin: 10px 10px 10px 10px;
+    }
+
 .section-heading {
-  color:#00BFFF; 
-  font-size: 30px;
-  margin: 20px;
-}
-/*End*/
+    color: #00BFFF;
+    font-size: 30px;
+    margin: 20px;
+    }
+
+
 /*-------------------------End of About.html*/
 
-/*-------------------------------------------------------Contact.html*/
+/*-------------------------Contact.html*/
+
 .contact-form {
     background-color: #00BFFF;
     border-color: #708090;
     border-style: groove;
-    width: 50%;
+    width: 100%;
     padding-left: 15px;
-}
+    }
 
 .contact-form td {
     padding-top: 5px;
-    padding-bottom:5px;
-}
+    padding-bottom: 5px;
+    }
+
 .contact-form-mobile {
     background-color: #00BFFF;
     border-color: #708090;
     border-style: groove;
     width: 90%;
     padding-left: 2px;
-}
+    }
 
 .contact-form-mobile td {
     padding-top: 5px;
-    padding-bottom:5px;
-}
-/*End of Contact.html*/
+    padding-bottom: 5px;
+    }
 
+
+/*---------------------------------------------Media Queries*/
+
+/* Large desktop */
+@media (min-width: 1400px) {
+    #contactModal {
+            width: 60%;
+            margin-left: 150px;
+            margin-right: 100px
+        }
+        
+        .contact-form {
+        background-color: #00BFFF;
+        border-color: #708090;
+        border-style: groove;
+        width: 60%;
+        padding-left: 175px;
+        padding-right: 100px;
+        text-align: center;
+        margin-bottom: 90px;
+        }
+        
+        .contact-form table {
+            width: 75%;
+        }
+        
+        #appointmentModal {
+            width: 100%;
+        }
+        
+        #appointmentModal fieldset {
+             padding-left: 20px;   
+        }
+        
+        #appointmentModal .form-name {
+             margin-left: 20px;   
+        }
+        
+        #appointmentModal .form-number {
+             margin-left: 1.5px;   
+        }
+        
+        #appointmentModal .form-time {
+             margin-left: 17px;   
+        }
+        
+        .wrapper-callback {
+        height: 200px;
+        padding-left: 160px;
+        }
+        
+        .wrapper-callback legend {
+        text-align: left;
+        }
+
+        .wrapper-appointment {
+        height: 200px;
+        }
+        
+        .footer-bounceback {
+            bottom: -1px;
+        }
+    }
+
+@media (min-width: 980px) and (max-width: 1399px) {
+        #contactModal {
+            width: 60%;
+            margin-left: 150px;
+            margin-right: 100px
+        }
+        
+        .contact-form {
+        background-color: #00BFFF;
+        border-color: #708090;
+        border-style: groove;
+        width: 60%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        margin-bottom: 90px;
+        margin-left: 250px;
+        }
+        
+        .contact-form table {
+            width: 75%;
+        }
+        
+        #appointmentModal {
+            width: 100%;
+        }
+        
+        #appointmentModal fieldset {
+             padding-left: 20px;   
+        }
+        
+        #appointmentModal .form-name {
+             margin-left: 20px;   
+        }
+        
+        #appointmentModal .form-number {
+             margin-left: 1.5px;   
+        }
+        
+        #appointmentModal .form-time {
+             margin-left: 17px;   
+        }
+        
+        .wrapper-callback {
+        height: 200px;
+        padding-left: 100px;
+        }
+        
+        .wrapper-callback legend {
+        text-align: left;
+        }
+
+        .wrapper-appointment {
+        height: 200px;
+        }
+        
+        .footer-bounceback {
+            bottom: -1px;
+        }
+    }
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+        #contactModal {
+            width: 60%;
+            margin-left: 150px;
+            margin-right: 100px
+        }
+        
+        .contact-form {
+        background-color: #00BFFF;
+        border-color: #708090;
+        border-style: groove;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        }
+        
+        .contact-form table {
+            width: 75%;
+        }
+        
+        #appointmentModal {
+            width: 100%;
+        }
+        
+        #appointmentModal legend {
+            text-align: left;
+        }
+        
+        #appointmentModal .wrapper-callback {
+             padding-left: 175px;   
+        }
+        
+        #appointmentModal fieldset {
+             padding-left: 20px;   
+        }
+        
+        #appointmentModal .form-name {
+             margin-left: 20px;   
+        }
+        
+        #appointmentModal .form-number {
+             margin-left: 1.5px;   
+        }
+        
+        #appointmentModal .form-time {
+             margin-left: 29px;   
+        }
+    
+    }
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+        #contactModal {
+            width: 90%;
+            margin-left: 40px;
+            margin-right: 30px;
+        }
+        
+        .contact-form {
+        background-color: #00BFFF;
+        border-color: #708090;
+        border-style: groove;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        }
+        
+        .contact-form table {
+            width: 75%;
+        }
+        
+        #appointmentModal {
+            width: 100%;
+        }
+        
+        
+        #appointmentModal .wrapper-callback {
+             padding-left: 5px;   
+        }
+        
+        #appointmentModal .form-name {
+             margin-left: 20px;   
+        }
+        
+        #appointmentModal .form-number {
+             margin-left: 1.5px;   
+        }
+        
+        #appointmentModal .form-time {
+             margin-left: 30px;   
+        }
+        
+        .wrapper-callback {
+        height: auto;
+        padding-left: 5px;
+        }
+
+        .wrapper-appointment {
+        height: auto;
+        }
+    
+    }
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+        #contactModal {
+            width: 60%;
+            margin-left: 150px;
+            margin-right: 100px
+        }
+        
+        .contact-form {
+        background-color: #00BFFF;
+        border-color: #708090;
+        border-style: groove;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        }
+        
+        .contact-form table {
+            width: 75%;
+        }
+        
+        #appointmentModal {
+            width: 100%;
+        }
+        
+        #appointmentModal fieldset {
+             padding-left: 20px;   
+        }
+        
+        #appointmentModal .form-name {
+             margin-left: 20px;   
+        }
+        
+        #appointmentModal .form-number {
+             margin-left: 1.5px;   
+        }
+        
+        #appointmentModal .form-time {
+             margin-left: 30px;   
+        }
+        
+        .wrapper-callback {
+        height: auto;
+        margin-left: 5px;
+        padding-left: 5px;
+        }
+
+        .wrapper-appointment {
+        height: auto;
+        
+        }
+        
+        .callout-container {
+            width: 100vw;
+        }
+        
+        .footer-bounceback {
+            bottom: -1px;
+        }
+        
+        .history {
+            margin-bottom: 110px;
+        }
+    
+    }
+
+
+/* Smaller Phones */
+
+@media (min-width: 250px) and (max-width: 321px) {
+
+
+    .footer {
+        min-height: 50vh;
+        bottom: -1px;
+        width: 100%;
+        }
+        
+    .navbar {
+        width: 100%;
+        }
+        
+        .wrapper-callback {
+        height: auto;
+        }
+
+        .wrapper-appointment {
+        height: auto;
+        }
+        
+        .callout-container {
+            width: 100vw;
+        }
+        
+        .footer-bounceback {
+            bottom: -1px;
+        }
+    
+    }
