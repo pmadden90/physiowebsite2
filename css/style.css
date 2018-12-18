@@ -312,7 +312,13 @@ element.style {
     }
 
 /*-------------------------------------------------------pilates.html*/
-
+.contact-link {
+    text-decoration: none;
+    color: #00BFFF;
+    font-size: 18;
+    font-weight: 600;
+    
+}
 
 /*-------------------------------------------------------About.html*/
 
@@ -410,7 +416,11 @@ element.style {
     }
 
 
-/*-------------------------End of About.html*/
+/*-------------------------Home Visits.html*/
+.home-visits {
+    font-weight: 600;
+    color: #000000;
+}
 
 /*-------------------------Contact.html*/
 
